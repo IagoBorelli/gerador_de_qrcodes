@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Gerador de QRcodes" />
+    <meta property="og:description" content="Site para você gerar seus QRCodes">
+    <meta property="og:url" content="https://iagoborelli.bohr.io" />
+    <meta property="og:image" content="https://iagoborelli.bohr.io/baner-site.png" />
+    <!--  -->
+    <link rel="shortcut icon" href="image/qr-code-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de QRcode</title>
+</head>
+
+<body>
+    <div class="user-input-section">
+        <section class="heading">
+            <div class="title">QRcodes</div>
+            <div class="sub-title">Gere QRCode para qualquer coisa!</div>
+        </section>
+        <section class="user-input">
+            <input type="text" placeholder="Coloque o seu link aqui" name="input_text" id="input_text" autocomplete="off">
+            <button class="button" type="submit">Gerar</button>
+        </section>
+    </div>
+    <div class="qr-code-container">
+        <div class="qr-code"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+
+</html>
